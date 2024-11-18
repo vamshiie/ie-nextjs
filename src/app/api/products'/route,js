@@ -1,0 +1,7 @@
+import { NextResponse } from "next/server";
+
+// Handle GET requests
+export async function GET() {
+  console.log("printed logs here");
+  return NextResponse.json({ products: "products" });
+}

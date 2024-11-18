@@ -1,0 +1,606 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap'); 
+  body {  
+    font-family:'Poppins',sans-serif;
+    font-size:13px;
+    line-height:22px;
+    color:#333;
+  }  
+* { 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+} 
+
+*  { 
+    font-family: 'Poppins',sans-serif;
+} 
+
+body { 
+    margin: 0;
+} 
+
+body { 
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+    font-size: 14px; 
+    line-height: 1.42857143; 
+    color: #333; 
+    background-color: #fff;
+} 
+
+body { 
+    font-family: "Poppins",sans-serif !important; 
+    -webkit-text-stroke: initial !important; 
+    -webkit-font-smoothing: antialiased !important; 
+    overflow-x: hidden;
+} 
+
+body { 
+    width: 100%; 
+    height: 100%;
+} 
+
+html { 
+    font-family: sans-serif; 
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%;
+} 
+
+html { 
+    font-size: 10px; 
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+} 
+
+.panel-heading { 
+    padding: 10px 15px; 
+    border-bottom: 1px solid transparent; 
+    border-top-left-radius: 3px; 
+    border-top-right-radius: 3px;
+} 
+
+.insPanel { 
+    background-color: #fff !important; 
+    border-bottom: 1px solid #77777747; 
+    box-shadow: 1px 1px 2px #77777747;
+} 
+
+.panel-heading  { 
+    color: #fff; 
+    background-color: #777; 
+    border-color: transparent;
+} 
+
+.panel-heading  { 
+    -webkit-border-radius: 0; 
+    -moz-border-radius: 0; 
+    -ms-border-radius: 0; 
+    border-radius: 0;
+} 
+
+.panel-heading  { 
+    line-height: 32px; 
+    padding-left: 5px; 
+    padding-right: 5px;
+} 
+
+:after,:before { 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+} 
+
+.RVpanel .panel-heading::before, .RVpanel .panel-heading::after { 
+    content: " "; 
+    display: table;
+} 
+
+.RVpanel .panel-heading::after { 
+    clear: both;
+} 
+
+.ins-text-trans { 
+    text-transform: none !important;
+} 
+
+.panel-heading > div  { 
+    display: inline-block; 
+    display: flex;
+} 
+
+.panel-heading > div.TrLftInfo  { 
+    font-size: 16px; 
+    text-transform: uppercase; 
+    font-weight: 600;
+} 
+
+.TrLftInfo  { 
+    display: block;
+} 
+
+img { 
+    border: 0;
+} 
+
+img { 
+    vertical-align: middle;
+} 
+
+.mml { 
+    margin-left: 10px;
+} 
+
+.lpl { 
+    padding-left: 15px;
+} 
+
+.travelInsuranceText { 
+    color: #000; 
+    font-size: 17px; 
+    vertical-align: text-top;
+} 
+
+.aig_align { 
+    float: right; 
+    margin-top: 2px; 
+    width: 60px;
+} 
+
+
+.col-sm-9,.col-xs-12 { 
+    position: relative; 
+    min-height: 1px; 
+    padding-right: 15px; 
+    padding-left: 15px;
+} 
+
+.col-xs-12 { 
+    float: left;
+} 
+
+.col-xs-12 { 
+    width: 100%;
+} 
+
+.row { 
+    margin-right: -15px; 
+    margin-left: -15px;
+} 
+
+body { 
+    margin: 0;
+} 
+
+body { 
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+    font-size: 14px; 
+    line-height: 1.42857143; 
+    color: #333; 
+    background-color: #fff;
+} 
+
+body { 
+    font-family: "Poppins",sans-serif !important; 
+    -webkit-text-stroke: initial !important; 
+    -webkit-font-smoothing: antialiased !important; 
+    overflow-x: hidden;
+} 
+
+body { 
+    width: 100%; 
+    height: 100%;
+} 
+
+html { 
+    font-family: sans-serif; 
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%;
+} 
+
+html { 
+    font-size: 10px; 
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+} 
+
+:after,:before { 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+} 
+
+.RVpanel .panel-heading::before, .RVpanel .panel-heading::after { 
+    content: " "; 
+    display: table;
+} 
+
+.RVpanel .panel-heading::after { 
+    clear: both;
+} 
+
+.RVpanel .panel-heading > div { 
+    display: inline-block; 
+    display: flex;
+} 
+
+.box { 
+    border: 1px solid #ddd;
+} 
+
+.border-orenge { 
+    border-color: #f26d22;
+} 
+
+.radius5 { 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -ms-border-radius: 5px; 
+    border-radius: 5px;
+} 
+
+.box { 
+    padding: 15px;
+} 
+
+.spt { 
+    padding-top: 5px;
+} 
+
+.pb { 
+    padding-bottom: 0;
+} 
+
+.panel-body { 
+    padding: 15px;
+} 
+
+.bold { 
+    font-weight: bold;
+} 
+
+.smt { 
+    margin-top: 5px;
+} 
+
+.smb { 
+    margin-bottom: 5px;
+} 
+
+.md-13 { 
+    font-size: 13px;
+} 
+
+.btn-group-vertical > .btn-group::after, .btn-group-vertical > .btn-group::before,.btn-toolbar:after,.btn-toolbar:before,.clearfix:after,.clearfix:before,.container-fluid:after,.container-fluid:before,.container:after,.container:before, .dl-horizontal dd::after, .dl-horizontal dd::before, .form-horizontal .form-group::after, .form-horizontal .form-group::before,.modal-footer:after,.modal-footer:before,.nav:after,.nav:before,.navbar-collapse:after,.navbar-collapse:before,.navbar-header:after,.navbar-header:before,.navbar:after,.navbar:before,.pager:after,.pager:before,.panel-body:after,.panel-body:before,.row:after,.row:before { 
+    display: table; 
+    content: " ";
+} 
+
+.btn-group-vertical > .btn-group::after, .btn-group-vertical > .btn-group::before, .btn-toolbar::after, .btn-toolbar::before, .clearfix::after, .clearfix::before, .container-fluid::after, .container-fluid::before, .container::after, .container::before, .dl-horizontal dd::after, .dl-horizontal dd::before, .form-horizontal .form-group::after, .form-horizontal .form-group::before, .modal-footer::after, .modal-footer::before, .nav::after, .nav::before, .navbar-collapse::after, .navbar-collapse::before, .navbar-header::after, .navbar-header::before, .navbar::after, .navbar::before, .pager::after, .pager::before, .panel-body::after, .panel-body::before, .row::after, .row::before { 
+    display: table; 
+    content: " ";
+} 
+
+.btn-group-vertical > .btn-group::after,.btn-toolbar:after,.clearfix:after,.container-fluid:after,.container:after, .dl-horizontal dd::after, .form-horizontal .form-group::after,.modal-footer:after,.nav:after,.navbar-collapse:after,.navbar-header:after,.navbar:after,.pager:after,.panel-body:after,.row:after { 
+    clear: both;
+} 
+
+.mmr { 
+    margin-right: 10px;
+} 
+
+.mmt { 
+    margin-top: 10px;
+} 
+
+.bg-orenge-tint { 
+    background-color: #fff9eb;
+} 
+
+.lp { 
+    padding: 15px;
+} 
+
+.btn-group-vertical > .btn-group::after, .btn-toolbar::after, .clearfix::after, .container-fluid::after, .container::after, .dl-horizontal dd::after, .form-horizontal .form-group::after, .modal-footer::after, .nav::after, .navbar-collapse::after, .navbar-header::after, .navbar::after, .pager::after, .panel-body::after, .row::after { 
+    clear: both;
+} 
+
+.lpl { 
+    padding-left: 15px;
+} 
+
+.lpr { 
+    padding-right: 15px;
+} 
+
+.lmb { 
+    margin-bottom: 15px;
+} 
+
+.md-12 { 
+    font-size: 12px;
+} 
+
+ul { 
+    margin-top: 0; 
+    margin-bottom: 10px;
+} 
+
+.list-unstyled { 
+    padding-left: 0; 
+    list-style: none;
+} 
+
+.mm { 
+    margin: 10px;
+} 
+
+label { 
+    display: inline-block; 
+    max-width: 100%; 
+    margin-bottom: 5px; 
+    font-weight: 700;
+} 
+
+label { 
+    font-weight: 400 !important;
+} 
+
+.checkbox { 
+    position: relative; 
+    display: block; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+} 
+
+.checkbox { 
+    cursor: pointer;
+} 
+
+a { 
+    background-color: transparent;
+} 
+
+a { 
+    color: #337ab7; 
+    text-decoration: none;
+} 
+
+.ins-links { 
+    text-decoration: underline; 
+    color: #f26d23 !important;
+} 
+
+a:active,a:hover { 
+    outline: 0;
+} 
+
+a:hover { 
+    color: #23527c; 
+    text-decoration: underline;
+} 
+
+.inline-flex { 
+    display: inline-flex;
+} 
+
+.tipList ul li  { 
+    width: 50%; 
+    float: left;
+} 
+
+.alert { 
+    padding: 15px; 
+    margin-bottom: 20px; 
+    border: 1px solid transparent; 
+    border-radius: 4px;
+} 
+
+.alert-red { 
+    background-color: red; 
+    border-color: red; 
+    color: #fff;
+} 
+
+.alert { 
+    margin-top: 5px;
+} 
+
+#travelInsuranceErrorToolTipMain { 
+    display: none;
+} 
+
+input { 
+    margin: 0; 
+    font: inherit; 
+    color: inherit;
+} 
+
+input { 
+    line-height: normal;
+} 
+
+input { 
+    font-family: inherit; 
+    font-size: inherit; 
+    line-height: inherit;
+} 
+
+input[type="checkbox"] { 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+    padding: 0;
+} 
+
+input[type="checkbox"] { 
+    margin: 4px 0 0; 
+    margin-top: 1px \9; 
+    line-height: normal;
+} 
+
+.checkbox input  { 
+    display: none;
+} 
+
+.checkbox input[type="checkbox"]  { 
+    position: absolute; 
+    margin-top: 4px \9; 
+    margin-left: -20px;
+} 
+
+.checkbox .icon  { 
+    cursor: pointer;
+} 
+
+.checkbox > span.icon  { 
+    background-image: url("https://s3.amazonaws.com/iedevcdn/IndianEagle/images/css/checkboxes1.svg"); 
+    background-repeat: no-repeat;
+} 
+
+.checkbox span.icon  { 
+    background-size: 100%; 
+    background-color: transparent; 
+    border: 0; 
+    margin-right: 5px; 
+    float: left; 
+    position: relative; 
+    -webkit-transition: background .35s ease-in-out; 
+    -o-transition: background .35s ease-in-out; 
+    transition: background .35s ease-in-out;
+} 
+
+.checkbox input[type="checkbox"] + span.icon  { 
+    background-position: 0 0; 
+    height: 16px; 
+    width: 16px; 
+    -webkit-transition: background .35s ease-in-out; 
+    -o-transition: background .35s ease-in-out; 
+    transition: background .35s ease-in-out;
+} 
+
+.checkbox input[type="checkbox"]:checked + span.icon  { 
+    background-position: 0 -16px;
+} 
+
+.travelImg_Icons { 
+    background-image: url("https://s3.amazonaws.com/iedevcdn/IndianEagle/images/TravelInfo-Insurance-New-Sprite-icons.png"); 
+    background-repeat: no-repeat;
+} 
+
+.ins-user { 
+    background-position: -30px -33px;
+} 
+
+.ins-icon { 
+    width: 27px; 
+    height: 27px; 
+    margin-right: 8px; 
+    margin-left: 8px;
+} 
+
+.ins-flight { 
+    background-position: -56px -33px;
+} 
+
+.ins-query { 
+    background-position: -82px -33px;
+} 
+
+.ins-brifCase { 
+    background-position: -3px -33px;
+} 
+
+.ins-dollar { 
+    background-position: -108px -33px;
+} 
+
+b { 
+    font-weight: 700;
+} 
+
+.pull-left { 
+    float: left;
+} 
+
+.pull-left { 
+    float: left!important;
+} 
+
+.text-blue { 
+    color: #003a77;
+} 
+
+.smr { 
+    margin-right: 5px;
+} 
+
+.md-15 { 
+    font-size: 15px;
+} 
+
+.col-xs-12 { 
+    position: relative; 
+    min-height: 1px; 
+    padding-right: 15px; 
+    padding-left: 15px;
+} 
+
+.lml { 
+    margin-left: 15px;
+} 
+
+.covidDiv a  { 
+    color: orange; 
+    text-decoration: underline;
+} 
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-vFOhx.style-vFOhx {  
+   background-color: #FFF8E6;  
+}  
+#style-5m7qJ.style-5m7qJ {  
+   margin-top: 2px;  
+}  
